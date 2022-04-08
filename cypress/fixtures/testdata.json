@@ -1,0 +1,6 @@
+{
+    "username" : "admin",
+    "password" : "Test212324",
+    "Url"  : "testdata.google.com",
+    "quickLaunch" : ["Assign Leave", "Leave List","Time Sheets","Apply Leave", "My Leave","My TimeSheet"] 
+}
