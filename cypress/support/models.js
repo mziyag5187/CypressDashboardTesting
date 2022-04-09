@@ -1,5 +1,6 @@
-import { modelSURL } from "../support/authentication.constant";
+import { comparePageURL, modelSURL } from "../support/authentication.constant";
 var data = require('../fixtures/modelsPage.json')
+var dataComparePageTexts = require('../fixtures/comparePage.json') 
 
 export class ModelS{
 
@@ -19,8 +20,24 @@ export class ModelS{
             expect(text).to.contain(data.ModelS[index])
 
         })
+    }
+
+    modelScomparePage(){
+        cy.contains('Compare').click()
+        cy.url().should('eq',comparePageURL)
+        cy.scrollTo('bottomLeft')
+
+        cy.get('[class="tds-text--caption tcl-compare-models__item-title"]').each( ($el,index)=>{
+
+            const text = $el.text()
+            expect(text).to.contain(dataComparePageTexts[index])
+            
+        })
+     
+
 
     }
+
 
 }
 
