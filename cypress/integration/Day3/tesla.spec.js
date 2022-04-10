@@ -20,7 +20,7 @@ describe('tesla.com automation testing', ()=>{
 
 })
 
-//TASK::
+//TASK:: (***this task is done with odelScomparePage() above*** )
 
 //navigate to page https://www.tesla.com/models
 //click on the compare button at the end of the page

@@ -9,6 +9,9 @@ export const modelSURL = "https://www.tesla.com/models"
 export const model3URL= "https://www.tesla.com/model3"
 export const comparePageURL = "https://www.tesla.com/compare"
 
+export const github = "https://github.com"
+export const githubLoginUrl = "https://github.com/login"
+
 export const wrongusername = "12345678"
 export const wrongpassword = "1231254125"
 
