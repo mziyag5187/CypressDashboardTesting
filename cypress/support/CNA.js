@@ -4,7 +4,7 @@ export class functions{
         cy.get('[type="radio"]').then( radiobuttons => {
 
             for(var i=0; i<=radiobuttons.length-1; i++){
-                cy.wrap(radiobuttons).eq(i)
+                cy.wrap(radiobuttons).eq(i) // to use the index for multiple web elements
                 .check({force:true})
                 .should('be.visible')
                 cy.wait(500)

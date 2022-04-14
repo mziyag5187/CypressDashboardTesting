@@ -66,3 +66,8 @@ Cypress.Commands.add('Negative_Username_Password_Testing', () => {
    cy.get('.uiHeaderTitle').should('be.visible')
 
 })
+
+
+Cypress.on('uncaught:exception', (err, runnable) => {
+   return false;
+});

@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "TeslaModelS" : "npx cypress run --record --key 7b91c3b7-29f6-4beb-8271-c8bbad7459e7 --spec 'cypress/integration/Day3/tesla.spec.js' "
+    "TeslaModelS" : "npx cypress run --record --key 7b91c3b7-29f6-4beb-8271-c8bbad7459e7 --spec 'cypress/integration/Day3/tesla.spec.js' ",
+    "GithubTest"  : "npx cypress run --record --key 7b91c3b7-29f6-4beb-8271-c8bbad7459e7 --spec 'cypress/integration/Day4/github.spec.js' "
   },
   "author": "mziya",
   "license": "ISC",
